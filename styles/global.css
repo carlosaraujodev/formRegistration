@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --font-family: "Poppins", sans-serif;
     --text: 400 1rem/1.5 var(--font-family);
     --text-sm: 400 .875rem/1.4rem var(--font-family);
@@ -23,30 +23,31 @@
     --semantic-error: #dc2626;
 }
 
-body{
+body {
     overflow: hidden;
 
     font: var(--text);
-    color: var(--text-secondary)    ;
+    color: var(--text-secondary);
 }
 
-h1,h2{
+h1,
+h2 {
     color: var(--text-primary);
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.flex-1{
+.flex-1 {
     flex: 1;
 }
 
-.flex-2{
+.flex-2 {
     flex: 2;
 }
